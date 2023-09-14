@@ -6,4 +6,4 @@
 
 - name: Debugeando
   debug:
-    msg: "Hola mundo desde {{ server_name.stdout }}"
+    msg: "Adios mundo desde {{ server_name.stdout }}"
