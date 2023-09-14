@@ -1,5 +1,5 @@
 ---
  - name: Playbook principal de ejecución de roles
-   hosts: localhost
+   hosts: grupo1
    roles:
     - hello_world
