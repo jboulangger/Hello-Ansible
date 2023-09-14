@@ -1,0 +1,5 @@
+---
+ - name: Playbook principal de ejecución de roles
+   hosts: localhost
+   roles:
+    - hello_world

@@ -1,0 +1,9 @@
+---
+# tasks file for hello_world
+- name: Capturando el hostname
+  shell: hostname
+  register: server_name
+
+- name: Debugeando
+  debug:
+    msg: "Hola mundo desde {{ server_name.stdout }}"
