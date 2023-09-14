@@ -1,7 +1,7 @@
 ---
 # tasks file for hello_world
 - name: Capturando el hostname
-  shell: hostname
+  win_shell: hostname
   register: server_name
 
 - name: Debugeando
